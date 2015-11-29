@@ -203,3 +203,36 @@ TürH-UR is south of Hangar. TürH-UR is north of Umkleideraum. TürH-UR is a do
 [Andockstation <-> Kommunikationsmodul]
 TürAS-KM is northwest of Andockstation. TürAS-KM is southeast of Kommunikationsmodul. TürAS-KM is a door.
 TürAS-KM is locked.
+
+
+
+[Untere Ebene - Äußerer Ring]
+Lagerraum is a room.
+Delta-Gewächshaus is a room.
+Lager is a room.
+Beta-Gewächshaus is a room.
+
+[Untere Ebene - Innerer Ring]
+Schwerkraftkompensator is a room.
+Delta-KI is a room.
+Hauptgenerator is a room.
+Alpha-KI is a room. 
+
+[Untere Ebene - Andere] 
+Mensa is a room.
+Fitnessraum is a room.
+Hilfsgeneratorraum is a room.
+
+
+
+[Türen]
+TürM-LR is west of Lagerraum and east of Mensa . TürM-LR  is a door. TürM-LR is locked.
+TürLR-BGH is southeast of Lagerraum and northwest of Beta-Gewächshaus. TürLR-BGH is door. TürLR-BGH is locked.
+TürBGH-LB is northeast of Beta-Gewächshaus and southwest of Lager. TürBGH-LB is a door. TürBGH-LB is locked.
+TürLB-DGH is northwest of Lager and southeast of Delta-Gewächshaus. TürLB-DGH is a door. TürLB-DGH  is locked.
+TürDGH-LR is southwest of Delta-Gewächshaus and northeast of Lagerraum. TürDGH-LR is a door. TürDGH-LR is locked.
+
+TürSKK-DK is northeast of Schwerkraftkompensator  and  southwest of Delta-KI. TürSKK-DK is a door.TürSKK-DK is locked.
+TürDK-HG is northwest of Delta-KI and southeast of Hauptgenerator.TürDK-HG is a door.TürDK-HG is locked.
+TürHG-AK is southwest of Hauptgenerator and northeast of Alpha-KI. TürHG-AK is a door.TürHG-AK is locked.
+TürAK-SKK is southeast of Alpha-KI and northwest of Schwerkraftkompensator. TürAK-SKK is a door. TürAK-SKK is locked.
