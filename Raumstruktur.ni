@@ -19,7 +19,6 @@ Section - Besprechungsraum
 Besprechungsraum is a room. The description is "[...]"
 
 
-
 Section - Antennenfeld L
 
 AntennenfeldL is a room. 
