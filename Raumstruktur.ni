@@ -43,7 +43,7 @@ The Hangar is a room.
 
 Section - Andockstation
 
-THe Andockstation is a room.
+The Andockstation is a room.
 
 
 Section - Gamma Kreuzung
