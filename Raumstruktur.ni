@@ -9,7 +9,7 @@ Part -  Raumstation
 
 Capter - Obere Ebene
  
- Section - Brücke
+Section - Brücke
 
 Brücke is a room. 
 Brücke is above Dienstraum.
@@ -269,7 +269,6 @@ Hilfsgeneratorraum is a room.
 
 [Türen]
 Section - Türen
-
 
 TürM-LR is west of Lagerraum and east of Mensa . TürM-LR  is a door. TürM-LR is locked.
 TürLR-BGH is southeast of Lagerraum and northwest of Beta-Gewächshaus. TürLR-BGH is door. TürLR-BGH is locked.
