@@ -7,6 +7,29 @@ Part -  Raumstation
 [////Raumstation der Lupus Station////]
 
 
+ Capter - Obere Ebene
+ 
+ Section - Brücke
+
+Brücke is a room. The description is "[...]"
+
+
+Section - Besprechungsraum
+
+Besprechungsraum is a room. The description is "[...]"
+
+
+
+Section - Antennenfeld L
+
+AntennenfeldL is a room. 
+
+
+Section - Obere Ebene Türen
+
+TürBrücke is a door. TürBrücke is west of Brücke and east of Besprechungsraum. TürBrücke is closed and locked. 
+
+
 Chapter - Hauptebene
 
 [////Hauptebene der Raumstation////]
