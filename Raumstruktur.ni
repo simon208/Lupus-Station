@@ -210,32 +210,60 @@ Chapter - Untere Ebene
 
 [Untere Ebene - Äußerer Ring]
 Section  - Lagerraum
+
 Lagerraum is a room.
+
+
 Section  - Delta-Gewächshaus
+
 Delta-Gewächshaus is a room.
+
+
 Section  - Lager
+
 Lager is a room.
+
+
 Section  - Beta-Gewächshaus
+
 Beta-Gewächshaus is a room.
+
 
 [Untere Ebene - Innerer Ring]
 Section  - Schwerkraftkompensator 
+
 Schwerkraftkompensator is a room.
+
+
 Section  - Delta-KI
+
 Delta-KI is a room.
+
+
 Section  - Hauptgenerator
+
 Hauptgenerator is a room.
+
+
 Section  - Alpha-KI
+
 Alpha-KI is a room. 
+
 
 [Untere Ebene - Andere] 
 Section  - Mensa
-Mensa is a room.
-Section  - Fitnessraum
-Fitnessraum is a room.
-Section  - Hilfsgeneratorraum
-Hilfsgeneratorraum is a room.
 
+Mensa is a room.
+
+
+Section  - Fitnessraum
+
+Fitnessraum is a room.
+
+
+Section  - Hilfsgeneratorraum
+
+Hilfsgeneratorraum is a room.
 
 
 [Türen]
