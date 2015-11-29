@@ -7,7 +7,7 @@ Part -  Raumstation
 [////Raumstation der Lupus Station////]
 
 
-Capter - Obere Ebene
+Chapter - Obere Ebene
  
 Section - Brücke
 
