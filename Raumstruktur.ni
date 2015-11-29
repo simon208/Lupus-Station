@@ -27,7 +27,7 @@ AntennenfeldL is above Kommunikationsmodul.
 
 Section - Obere Ebene Türen
 
-TürBrücke is a door. TürBrücke is west of Brücke and east of Besprechungsraum. TürBrücke is closed and locked. 
+TürBrücke is a door. TürBrücke is east of Brücke and west of Besprechungsraum. TürBrücke is closed and locked. 
 
 
 
