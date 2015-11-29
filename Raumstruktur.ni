@@ -1,4 +1,4 @@
-"Lupus Station" by Dennis
+"Lupus Station" by Gruppe22
 
 Book - Lupus Station 
 [////ganze Story////]
