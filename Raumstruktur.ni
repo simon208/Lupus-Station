@@ -12,7 +12,7 @@ Part -  Raumstation
  Section - Brücke
 
 Brücke is a room. The description is "[...]"
-
+Brücke is above Dienstraum.
 
 Section - Besprechungsraum
 
@@ -22,7 +22,7 @@ Besprechungsraum is a room. The description is "[...]"
 Section - Antennenfeld L
 
 AntennenfeldL is a room. 
-
+AntennenfeldL is above Kommunikationsmodul.
 
 Section - Obere Ebene Türen
 
