@@ -7,16 +7,16 @@ Part -  Raumstation
 [////Raumstation der Lupus Station////]
 
 
- Capter - Obere Ebene
+Capter - Obere Ebene
  
  Section - Brücke
 
-Brücke is a room. The description is "[...]"
+Brücke is a room. 
 Brücke is above Dienstraum.
 
 Section - Besprechungsraum
 
-Besprechungsraum is a room. The description is "[...]"
+Besprechungsraum is a room. 
 
 
 Section - Antennenfeld L
@@ -269,6 +269,8 @@ Hilfsgeneratorraum is a room.
 
 [Türen]
 Section - Türen
+
+
 TürM-LR is west of Lagerraum and east of Mensa . TürM-LR  is a door. TürM-LR is locked.
 TürLR-BGH is southeast of Lagerraum and northwest of Beta-Gewächshaus. TürLR-BGH is door. TürLR-BGH is locked.
 TürBGH-LB is northeast of Beta-Gewächshaus and southwest of Lager. TürBGH-LB is a door. TürBGH-LB is locked.
