@@ -12,7 +12,7 @@ Chapter - Obere Ebene
 Section - Brücke
 
 Brücke is a room. 
-Brücke is above Dienstraum.
+
 
 Section - Besprechungsraum
 
@@ -88,6 +88,7 @@ Gamma-Beta Korridor is a room.
 Section - Maschinenraum
 
 Maschinenraum is a room.
+Maschinenraum is above Schwerkraftkompensator.
 
 
 Section - Med-Labor
@@ -113,17 +114,18 @@ WC-Damen is a room.
 Section - Dienstraum
 
 Dienstraum is a room.
+Dienstraum is above Mensa.
 
 
 Section - Besatzungsquatier
 
 Besatzungsquatier is a room.
-
+Besatzungsquatier is above Fitnessraum.
 
 Section - Kommunikationsmodul
 
 Kommunikationsmodul is a room.
-
+Kommunikationsmodul is above Hilfsgeneratorraum.
 
 Section - Umkleideraum
 
