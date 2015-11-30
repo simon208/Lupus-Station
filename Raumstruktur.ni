@@ -297,11 +297,12 @@ Chapter - Obere Ebene
 Section - Antennen-Feld F 
 
 Antennen-Feld F is a room.
-
+Antennen-Feld F is above Labor F.
 
 Section - Funkmodul
 
 Funkmodul is a room.
+Funkmodul is above Kommunikationsmodul F.
 
 
 Section - Solar-Modul F
@@ -312,6 +313,7 @@ Solar-Modul F is a room.
 Section - Pulsator-Modul
 
 Pulsator-Modul is a room.
+Pulsator-Modul is above Kontrollmodul.
 
 [Haupt Ebene - FS]
 Chapter - Hauptebene
@@ -324,6 +326,7 @@ Labor F is a room.
 Section - Kommunikationsmodul F
 
 Kommunikationsmodul F is a room.
+Kommunikationsmodul F is above Transporterraum.
 
 
 Section - Fluchtkapseln
@@ -368,14 +371,3 @@ TürL-BM is east of Transporterraum and west of Energiespeicher. TürL-BM is a d
 
 TürKM-FK is north of Kontrollmodul and south of Fluchtkapseln. TürKM-FK is a door.TürKM-FK is open.
 TürL-KOMF is south of Labor F and north of Kommunikationsmodul F. TürL-KOMF is a door. TürL-KOMF is open.
-
-[Treppen]
-Antennen-Feld F is above Labor F.
-Funkmodul is above Kommunikationsmodul F.
-Pulsator-Modul is above Kontrollmodul.
-
-Kommunikationsmodul F is above Transporterraum.
-
-
-
-
