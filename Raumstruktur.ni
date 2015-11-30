@@ -283,3 +283,97 @@ TürSKK-DK is northeast of Schwerkraftkompensator  and  southwest of Delta-KI. T
 TürDK-HG is northwest of Delta-KI and southeast of Hauptgenerator.TürDK-HG is a door.TürDK-HG is locked.
 TürHG-AK is southwest of Hauptgenerator and northeast of Alpha-KI. TürHG-AK is a door.TürHG-AK is locked.
 TürAK-SKK is southeast of Alpha-KI and northwest of Schwerkraftkompensator. TürAK-SKK is a door. TürAK-SKK is locked.
+
+[Forschungsstation]
+
+[Obere Ebene - FS]
+
+Part - Forschungsstation
+
+Chapter - Obere Ebene
+
+Section - Antennen-Feld F 
+
+Antennen-Feld F is a room.
+
+
+Section - Funkmodul
+
+Funkmodul is a room.
+
+
+Section - Solar-Modul F
+
+Solar-Modul F is a room.
+
+
+Section - Pulsator-Modul
+
+Pulsator-Modul is a room.
+
+[Haupt Ebene - FS]
+Chapter - Hauptebene
+
+Section - Labor F
+
+Labor F is a room.
+
+
+Section - Kommunikationsmodul F
+
+Kommunikationsmodul F is a room.
+
+
+Section - Fluchtkapseln
+
+Fluchtkapseln is a room.
+
+
+Section - Kontrollmodul
+
+Kontrollmodul is a room.
+
+
+[Untere Ebene - FS]
+
+Chapter - Untere Ebene
+
+[Section -
+Lager F is a room.
+Section -
+Beschädigtes Modul is a room.]
+
+Section - Transporterraum
+
+Transporterraum is a room.
+
+
+Section - Energiespeicher
+
+Energiespeicher is a room.
+
+
+[Türen]
+
+Section - Türen 
+
+TürAF-FM is south of Antennen-Feld F and north of Funkmodul. TürAF-FM is a door. TürAF-FM is open.
+TürAF-SM is east of Antennen-Feld F and west of Solar-Modul F. TürAF-SM is a door. TürAF-SM is open.
+TürSM-PM is south of Solar-Modul F and north of Pulsator-Modul. TürSM-PM is a door. TürSM-PM is open.
+
+TürL-BM is east of Transporterraum and west of Energiespeicher. TürL-BM is a door. TürL-BM is open.
+ [TürTR-EM is east of Lager F and west of Beschädigtes Modul.TürTR-EM is a door. TürTR-EM is open.]
+
+TürKM-FK is north of Kontrollmodul and south of Fluchtkapseln. TürKM-FK is a door.TürKM-FK is open.
+TürL-KOMF is south of Labor F and north of Kommunikationsmodul F. TürL-KOMF is a door. TürL-KOMF is open.
+
+[Treppen]
+Antennen-Feld F is above Labor F.
+Funkmodul is above Kommunikationsmodul F.
+Pulsator-Modul is above Kontrollmodul.
+
+Kommunikationsmodul F is above Transporterraum.
+
+
+
+
