@@ -1,5 +1,7 @@
 "Lupus Station" by Gruppe22
 
+The player is in Hangar.
+
 Book - Lupus Station 
 [////ganze Story////]
 
