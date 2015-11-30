@@ -132,7 +132,7 @@ Kommunikationsmodul is above Hilfsgeneratorraum.
 
 Section - Umkleideraum
 
-Umkleideraum is a room. Umkleideraum is inside of Hangar.
+Umkleideraum is a room.
 
 
 Section - Türen
@@ -205,6 +205,7 @@ TürGDK-KM is locked.
 
 [Hangar <-> Umkleideraum]
 TürH-UR is south of Hangar. TürH-UR is north of Umkleideraum. TürH-UR is a door.
+TürH-UR is locked.
 
 [Andockstation <-> Kommunikationsmodul]
 TürAS-KM is northwest of Andockstation. TürAS-KM is southeast of Kommunikationsmodul. TürAS-KM is a door.
