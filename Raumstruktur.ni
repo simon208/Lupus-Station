@@ -7,6 +7,8 @@ The Raumstation is a region. The  Andockstation, Hangar, Umkleideraum, Gamma-Del
 
 The Forschungsstation is a region. The Transporterraum, Lager F, Beschädigtes Modul, Energiespeicher, Kommunikationsmodul F, Labor F, Kontrollmodul, Fluchtkapseln, Antennenfeld F, Solar-Modul F, Funkmodul, and the Pulsator-Modul are in the Forschungsstation.
 
+[So kann man der Karte eine Lagebeziehung zwischen Raum- und Forschungstation vermitteln, in dem man zwei Räume von je
+einer Region in Beziehung setzt wie im Folgenden getan]
 Index map with Fluchtkapseln mapped southwest of Alpha Kreuzung.
 
 [Index map with room-colour of Raumstation set to “Navy” and room-name-colour
@@ -234,7 +236,11 @@ Lagerraum is a room.
 Section  - Delta-Gewächshaus
 
 Delta-Gewächshaus is a room.
+
+[Die Lagebeziehung von den Räumen im inneren und äußeren Ring der unteren Ebene, wird durch den folgenden Befehl
+der vorgegebenen Karte angepasst]
 Index map with Delta-Gewächshaus mapped north of Hauptgenerator.
+
 
 Section  - Lager
 
@@ -250,7 +256,11 @@ Beta-Gewächshaus is a room.
 Section  - Schwerkraftkompensator 
 
 Schwerkraftkompensator is a room.
+
+[Die Lagebeziehung von den Räumen im inneren und äußeren Ring der unteren Ebene, wird durch den folgenden Befehl
+der vorgegebenen Karte angepasst]
 Index map with Schwerkraftkompensator mapped north of Beta-Gewächshaus.
+
 
 Section  - Delta-KI
 
