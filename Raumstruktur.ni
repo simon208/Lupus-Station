@@ -7,6 +7,7 @@ The Raumstation Lupus is a region. The  Andockstation, Hangar, Umkleideraum, Gam
 
 The Forschungsstation is a region. The Transporterraum, Lager F, Beschädigtes Modul, Energiespeicher, Kommunikationsmodul F, Labor F, Kontrollmodul, Fluchtkapseln, Antennenfeld F, Solar-Modul F, Funkmodul, and the Pulsator-Modul are in the Forschungsstation.
 
+Index map with Fluchtkapseln mapped southwest of Alpha Kreuzung.
 
 Book - Lupus Station 
 [////ganze Story////]
