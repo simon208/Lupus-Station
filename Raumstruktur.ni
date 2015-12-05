@@ -2,6 +2,12 @@
 
 The player is in Hangar.
 
+[////////Regionen//////////////////////]
+The Raumstation Lupus is a region. The  Andockstation, Hangar, Umkleideraum, Gamma-Delta Korridor, Kommunikationsmodul, Alpha-Delta Korridor, Delta Kreuzung, Alpha Kreuzung, Dienstraum, Besatzungsquartier, Alpha-Beta Korridor, Beta Kreuzung, WC-Damen, Gamma-Beta Korridor, Gamma Kreuzung, Xeno-Labor,  Solar-Labor, Med-Labor, Maschinenraum, Besprechungsraum, Brücke, Antennenfeld L, Lagerraum, Mensa, Fitnessraum, Delta-Gewächshaus, Lager, Beta-Gewächshaus, Schwerkraftkompensator, Delta-KI, Hauptgenerator, Umkleideraum, Alpha-KI, Hilfsgeneratorraum are in the Raumstation Lupus. 
+
+The Forschungsstation is a region. The Transporterraum, Lager F, Beschädigtes Modul, Energiespeicher, Kommunikationsmodul F, Labor F, Kontrollmodul, Fluchtkapseln, Antennenfeld F, Solar-Modul F, Funkmodul, and the Pulsator-Modul are in the Forschungsstation.
+
+
 Book - Lupus Station 
 [////ganze Story////]
 
@@ -24,8 +30,8 @@ Besprechungsraum is above Dienstraum.
 
 Section - Antennenfeld L
 
-AntennenfeldL is a room. 
-AntennenfeldL is above Kommunikationsmodul.
+Antennenfeld L is a room. 
+Antennenfeld L is above Kommunikationsmodul.
 
 Section - Obere Ebene Türen
 
@@ -120,10 +126,10 @@ Dienstraum is a room.
 Dienstraum is above Mensa.
 
 
-Section - Besatzungsquatier
+Section - Besatzungsquartier
 
-Besatzungsquatier is a room.
-Besatzungsquatier is above Fitnessraum.
+Besatzungsquartier is a room.
+Besatzungsquartier is above Fitnessraum.
 
 Section - Kommunikationsmodul
 
@@ -197,7 +203,7 @@ TürBK-WCD is locked.
 TürAK-DR is west of Alpha Kreuzung. TürAK-DR is east of Dienstraum. TürAK-DR is a door.
 
 [Dienstraum <-> Besatzungquatier]
-TürDR-BQ is east of Besatzungsquatier. TürDR-BQ is west of Dienstraum. TürDR-BQ is a door.
+TürDR-BQ is east of Besatzungsquartier. TürDR-BQ is west of Dienstraum. TürDR-BQ is a door.
 
 [Gamma-Delta Korridor <-> Kommunikationsmodul]
 TürGDK-KM is northeast of Gamma-Delta Korridor. TürGDK-KM is southwest of Kommunikationsmodul. TürGDK-KM is a door.
@@ -295,10 +301,10 @@ Part - Forschungsstation
 
 Chapter - Obere Ebene
 
-Section - Antennen-Feld F 
+Section - Antennenfeld F 
 
-Antennen-Feld F is a room.
-Antennen-Feld F is above Labor F.
+Antennenfeld F is a room.
+Antennenfeld F is above Labor F.
 
 Section - Funkmodul
 
@@ -363,8 +369,8 @@ Energiespeicher is a room.
 
 Section - Türen 
 
-TürAF-FM is south of Antennen-Feld F and north of Funkmodul. TürAF-FM is a door. TürAF-FM is open.
-TürAF-SM is east of Antennen-Feld F and west of Solar-Modul F. TürAF-SM is a door. TürAF-SM is open.
+TürAF-FM is south of Antennenfeld F and north of Funkmodul. TürAF-FM is a door. TürAF-FM is open.
+TürAF-SM is east of Antennenfeld F and west of Solar-Modul F. TürAF-SM is a door. TürAF-SM is open.
 TürSM-PM is south of Solar-Modul F and north of Pulsator-Modul. TürSM-PM is a door. TürSM-PM is open.
 
 TürL-BM is east of Transporterraum and west of Energiespeicher. TürL-BM is a door. TürL-BM is open.
