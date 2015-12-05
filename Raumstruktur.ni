@@ -3,11 +3,14 @@
 The player is in Hangar.
 
 [////////Regionen//////////////////////]
-The Raumstation Lupus is a region. The  Andockstation, Hangar, Umkleideraum, Gamma-Delta Korridor, Kommunikationsmodul, Alpha-Delta Korridor, Delta Kreuzung, Alpha Kreuzung, Dienstraum, Besatzungsquartier, Alpha-Beta Korridor, Beta Kreuzung, WC-Damen, Gamma-Beta Korridor, Gamma Kreuzung, Xeno-Labor,  Solar-Labor, Med-Labor, Maschinenraum, Besprechungsraum, Brücke, Antennenfeld L, Lagerraum, Mensa, Fitnessraum, Delta-Gewächshaus, Lager, Beta-Gewächshaus, Schwerkraftkompensator, Delta-KI, Hauptgenerator, Umkleideraum, Alpha-KI, Hilfsgeneratorraum are in the Raumstation Lupus. 
+The Raumstation is a region. The  Andockstation, Hangar, Umkleideraum, Gamma-Delta Korridor, Kommunikationsmodul, Alpha-Delta Korridor, Delta Kreuzung, Alpha Kreuzung, Dienstraum, Besatzungsquartier, Alpha-Beta Korridor, Beta Kreuzung, WC-Damen, Gamma-Beta Korridor, Gamma Kreuzung, Xeno-Labor,  Solar-Labor, Med-Labor, Maschinenraum, Besprechungsraum, Brücke, Antennenfeld L, Lagerraum, Mensa, Fitnessraum, Delta-Gewächshaus, Lager, Beta-Gewächshaus, Schwerkraftkompensator, Delta-KI, Hauptgenerator, Umkleideraum, Alpha-KI, Hilfsgeneratorraum are in the Raumstation. 
 
 The Forschungsstation is a region. The Transporterraum, Lager F, Beschädigtes Modul, Energiespeicher, Kommunikationsmodul F, Labor F, Kontrollmodul, Fluchtkapseln, Antennenfeld F, Solar-Modul F, Funkmodul, and the Pulsator-Modul are in the Forschungsstation.
 
 Index map with Fluchtkapseln mapped southwest of Alpha Kreuzung.
+
+[Index map with room-colour of Raumstation set to “Navy” and room-name-colour
+of Raumstation set to “White”.]
 
 Book - Lupus Station 
 [////ganze Story////]
@@ -231,7 +234,7 @@ Lagerraum is a room.
 Section  - Delta-Gewächshaus
 
 Delta-Gewächshaus is a room.
-
+Index map with Delta-Gewächshaus mapped north of Hauptgenerator.
 
 Section  - Lager
 
@@ -247,7 +250,7 @@ Beta-Gewächshaus is a room.
 Section  - Schwerkraftkompensator 
 
 Schwerkraftkompensator is a room.
-
+Index map with Schwerkraftkompensator mapped north of Beta-Gewächshaus.
 
 Section  - Delta-KI
 
