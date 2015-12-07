@@ -7,6 +7,7 @@ The Raumstation is a region. The  Andockstation, Hangar, Umkleideraum, Gamma-Del
 
 The Forschungsstation is a region. The Transporterraum, Lager F, Beschädigtes Modul, Energiespeicher, Kommunikationsmodul F, Labor F, Kontrollmodul, Fluchtkapseln, Antennenfeld F, Solar-Modul F, Funkmodul, and the Pulsator-Modul are in the Forschungsstation.
 
+
 [So kann man der Karte eine Lagebeziehung zwischen Raum- und Forschungstation vermitteln, in dem man zwei Räume von je
 einer Region in Beziehung setzt wie im Folgenden getan]
 Index map with Fluchtkapseln mapped southwest of Alpha Kreuzung.
@@ -53,6 +54,12 @@ Chapter - Hauptebene
 Section - Hangar
 
 The Hangar is a room.
+The Spind is a container in Hangar. Spind is closed and openable. Spind is fixed in place.
+
+PanelH-GK is an open container in Hangar. the panelH-GK  is unopenable. the panelH-GK  is fixed in place. 
+
+Sicherheitskarte is in Spind.
+Mobitab is in Spind.
 
 
 Section - Andockstation
@@ -63,11 +70,14 @@ The Andockstation is a room.
 Section - Gamma Kreuzung
 
 Gamma Kreuzung is a room.
+PanelGK-GDK is an open container in Gamma Kreuzung. the panelGK-GDK is unopenable. the panelGK-GDK is fixed in place. 
+PanelGBK-GK is an open container in Gamma Kreuzung. the panelGBK-GK is unopenable. the panelGBK-GK is fixed in place. 
 
 
 Section - Gamma-Delta Korridor
 
 Gamma-Delta Korridor is a room.
+PanelGDK-DK is an open container in Gamma-Delta Korridor. the panelGDK-DK is unopenable. the panelGDK-DK is fixed in place.  
 
 
 Section - Delta Kreuzung
@@ -78,26 +88,32 @@ Delta Kreuzung is a room.
 Section - Alpha-Delta Korridor
 
 Alpha-Delta Korridor is a room.
-
+PanelADK-DK is an closed container in Alpha-Delta Korridor. the panelADK-DK is unopenable. the panelADK-DK is fixed in place.
+[---------- Von der Delta Kreuzung kommt man nicht nach süd westen, da kein panel dafür da ist, es geht aber von der anderen
+Seite. Das müsste vielleicht noch in einem beschreibenden Text erwähnt werden, wenn ide Tür locked ist]
 
 Section - Alpha Kreuzung 
 
 Alpha Kreuzung is room.
+PanelAK-ADK is a closed container in Alpha Kreuzung. the panelAK-ADK is unopenable. the panelAK-ADK is fixed in place. 
 
 
 Section - Alpha-Beta Korridor
 
 Alpha-Beta Korridor is a room.
+PanelABK-AK is an closed container in Alpha-Beta Korridor. the panelABK-AK is unopenable. the panelABK-AK is fixed in place.
 
 
 Section - Beta Kreuzung 
 
 Beta Kreuzung is a room.
+PanelBK-ABK is an closed container in Beta Kreuzung. the panelBK-ABK  is unopenable. the panelBK-ABK is fixed in place. 
 
 
 Section - Gamma-Beta Korridor
 
 Gamma-Beta Korridor is a room.
+PanelGBK-BK is an open container in Gamma-Beta Korridor. the panelGBK-BK is unopenable. the panelGBK-BK is fixed in place. 
 
 
 Section - Maschinenraum
@@ -145,6 +161,7 @@ Kommunikationsmodul is above Hilfsgeneratorraum.
 Section - Umkleideraum
 
 Umkleideraum is a room.
+The Raumanzug is in Umkleideraum. Raumanzug is wearable.
 
 
 Section - Türen
@@ -392,3 +409,114 @@ TürL-BM is east of Transporterraum and west of Energiespeicher. TürL-BM is a d
 
 TürKM-FK is north of Kontrollmodul and south of Fluchtkapseln. TürKM-FK is a door.TürKM-FK is open.
 TürL-KOMF is south of Labor F and north of Kommunikationsmodul F. TürL-KOMF is a door. TürL-KOMF is open.
+
+
+Part - Generele Regeln
+
+[------Code für das Beschädigen Kommando für die westlichen Panels--------------]
+Understand "damage [something] with [something carried]" as damaging it with. 
+Damaging it with is an action applying to one visible thing and one carried thing.
+
+Report damaging:
+	say "Das [the noun] wurde beschädigt. Nun kann die Tür mit einem Sicherheitsausweis entsperrt werden."
+
+Carry out damaging:
+	now the noun is open;
+
+Check damaging something which is an open container with something :
+	say "Es wird keine Beschädigung benötigt." instead. 
+
+Check damaging something with something which is not mobitab:
+	say "Mit diesem Gegenstand kann nichts beschädigt werden." instead. 
+	
+Check damaging something which is not a container with something :
+	say "Hierbei handelt es sich nicht um ein Panel!" instead. 
+
+Check damaging Spind with something:
+	say "Der Spind kann nicht beschädigt werden!!!" instead.
+
+
+[--------Every Turn------ (alles was nach einem Zug immer überprüft wird)]
+every turn:
+	[Panel im Hangar]
+	if Sicherheitskarte is in panelH-GK begin;
+		if TürH-GK is locked begin; 
+			now TürH-GK is unlocked;
+			say "Die Tür ist nun entsperrt und die Sicherheitskarte kann wieder entnommen werden.";
+		else if the location of the player is Hangar;
+			say "Die Tür ist schon offen! Entnehmen Sie bitte ihre Karte aus dem Panel.";
+		end if;
+	end if;
+	[Panel in der Gamma Kreuzung zur Gamma-Delta Kreuzung]
+	if Sicherheitskarte is in panelGK-GDK begin;
+		if TürGK-GDK is locked begin; 
+			now TürGK-GDK is unlocked;
+			say "Die Tür ist nun entsperrt und die Sicherheitskarte kann wieder entnommen werden.";
+		else if the location of the player is Gamma Kreuzung;
+			say "Die Tür ist schon offen! Entnehmen Sie bitte ihre Karte aus dem Panel.";
+		end if;
+	end if;			
+	[Panel in der Gamma Kreuzung zum Gamma-Beta Korridor]
+	if Sicherheitskarte is in panelGBK-GK begin;
+		if TürGBK-GK is locked begin; 
+			now TürGBK-GK is unlocked;
+			say "Die Tür ist nun entsperrt und die Sicherheitskarte kann wieder entnommen werden.";
+		else if the location of the player is Gamma Kreuzung;
+			say "Die Tür ist schon offen! Entnehmen Sie bitte ihre Karte aus dem Panel.";
+		end if;
+	end if;
+	[Panel in dem Gamma-Delta Korridor zur Delta Kreuzung]
+	if Sicherheitskarte is in panelGDK-DK begin;
+		if TürGDK-DK is locked begin; 
+			now TürGDK-DK is unlocked;
+			say "Die Tür ist nun entsperrt und die Sicherheitskarte kann wieder entnommen werden.";
+		else if the location of the player is Gamma-Delta Korridor;
+			say "Die Tür ist schon offen! Entnehmen Sie bitte ihre Karte aus dem Panel.";
+		end if;
+	end if;
+	[Panel im Gamma-Beta Korridor zur Beta Kreuzung]
+	if Sicherheitskarte is in panelGBK-BK begin;
+		if TürBK-GBK is locked begin; 
+			now TürBK-GBK is unlocked;
+			say "Die Tür ist nun entsperrt und die Sicherheitskarte kann wieder entnommen werden.";
+		else if the location of the player is Gamma-Beta Korridor;
+			say "Die Tür ist schon offen! Entnehmen Sie bitte ihre Karte aus dem Panel.";
+		end if;
+	end if;					
+	[Panel in der Beta Kreuzung zum Alpha-Beta Korridor]
+	if Sicherheitskarte is in panelBK-ABK  begin;
+		if TürABK-BK is locked begin; 
+			now TürABK-BK is unlocked;
+			say "Die Tür ist nun entsperrt und die Sicherheitskarte kann wieder entnommen werden.";
+		else if the location of the player is Beta Kreuzung;
+			say "Die Tür ist schon offen! Entnehmen Sie bitte ihre Karte aus dem Panel.";
+		end if;
+	end if;	
+	[Panel im Alpha-Beta Korridor zur Alpha Kreuzung]
+	if Sicherheitskarte is in panelABK-AK  begin;
+		if TürAK-ABK is locked begin; 
+			now TürAK-ABK is unlocked;
+			say "Die Tür ist nun entsperrt und die Sicherheitskarte kann wieder entnommen werden.";
+		else if the location of the player is Alpha-Beta Korridor;
+			say "Die Tür ist schon offen! Entnehmen Sie bitte ihre Karte aus dem Panel.";
+		end if;
+	end if;		
+	[Panel in der Alpha Kreuzung zum Alpha-Delta Korridor]
+	if Sicherheitskarte is in panelAK-ADK  begin;
+		if TürADK-AK is locked begin; 
+			now TürADK-AK is unlocked;
+			say "Die Tür ist nun entsperrt und die Sicherheitskarte kann wieder entnommen werden.";
+		else if the location of the player is Alpha Kreuzung;
+			say "Die Tür ist schon offen! Entnehmen Sie bitte ihre Karte aus dem Panel.";
+		end if;
+	end if;		
+	[Panel in dem Alpha-Delta Korridor zur Delta Kreuzung]
+	if Sicherheitskarte is in panelADK-DK begin;
+		if TürDK-ADK is locked begin; 
+			now TürDK-ADK is unlocked;
+			say "Die Tür ist nun entsperrt und die Sicherheitskarte kann wieder entnommen werden.";
+		else if the location of the player is Alpha-Delta Korridor;
+			say "Die Tür ist schon offen! Entnehmen Sie bitte ihre Karte aus dem Panel.";
+		end if;
+	end if;	
+		
