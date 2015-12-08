@@ -239,10 +239,11 @@ TürH-UR is locked.
 [Andockstation <-> Kommunikationsmodul]
 TürAS-KM is northwest of Andockstation. TürAS-KM is southeast of Kommunikationsmodul. TürAS-KM is a door.
 
-[Regel damit, der Spieler nicht ohne Raumanzug durch den Weltraum zum Kommodul bzw. zur Andockstation kommt]
+[Regel, wenn der Spieler den Weltraum ohne Raumanzug betritt, stirbt er und das Spiel wird beendet]
 Before going through the TürAS-KM:
 	if the player is not wearing the Raumanzug:
-		say "Das ist eine schlechte Idee, ohne Raumanzug wirst du im Weltall qualvoll ersticken." instead.
+		end the story finally saying "Du betrittst den Weltraum ohne Raumanzug und stirbst. [paragraph break]
+		Game over."
 
 
 
