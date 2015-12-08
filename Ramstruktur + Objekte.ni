@@ -55,11 +55,15 @@ Section - Hangar
 
 The Hangar is a room.
 The Spind is a container in Hangar. Spind is closed and openable. Spind is fixed in place.
+The description of Spind is "Im Spind lagern die Mitarbeiter ihre Sachen."
 
 PanelH-GK is an open container in Hangar. the panelH-GK  is unopenable. the panelH-GK  is fixed in place. 
 
 Sicherheitskarte is in Spind.
-Mobitab is in Spind.
+The description of Sicherheitskarte is "Eine Sicherheitskarte mit der kann man die Türen auf der Station entsperren kann."
+
+The Mobitab is in Spind. The description is "[if the mobitab is in Spind]Ein MobiTab, das wird sicherlich noch nützlich sein.[otherwise] Im Kleingedruckten steht 'Bitte nicht auf Türpanel anwenden.' Komisch.". 
+
 
 
 Section - Andockstation
@@ -125,6 +129,7 @@ Maschinenraum is above Schwerkraftkompensator.
 Section - Med-Labor
 
 Med-Labor is a room.
+Krankenbett is a supporter in Med-Labor. Krankenbett is fixed in place.
 
 
 Section - Solar-Labor
@@ -162,6 +167,7 @@ Section - Umkleideraum
 
 Umkleideraum is a room.
 The Raumanzug is in Umkleideraum. Raumanzug is wearable.
+The Description of Raumanzug is "Hierbei handelt es sich tatsächlich um einen funktionsfähigen Raumanzug! Er könnte sogar in Percys Größe sein."
 
 
 Section - Türen
@@ -239,12 +245,11 @@ TürH-UR is locked.
 [Andockstation <-> Kommunikationsmodul]
 TürAS-KM is northwest of Andockstation. TürAS-KM is southeast of Kommunikationsmodul. TürAS-KM is a door.
 
-[Regel, wenn der Spieler den Weltraum ohne Raumanzug betritt, stirbt er und das Spiel wird beendet]
+
 Before going through the TürAS-KM:
 	if the player is not wearing the Raumanzug:
-		end the story finally saying "Du betrittst den Weltraum ohne Raumanzug und stirbst. [paragraph break]
-		Game over."
-
+		end the story finally saying "Du betrittst den Weltraum ohne Raumanzug und stirbst. [paragraph break] Game over."
+		
 
 
 Chapter - Untere Ebene
@@ -524,4 +529,9 @@ every turn:
 			say "Die Tür ist schon offen! Entnehmen Sie bitte ihre Karte aus dem Panel.";
 		end if;
 	end if;	
-		
+
+[Test-Schleife, schließt am Anfang alle Türen auf, so muss man nicht immer alle Türen entsper- 	en, um den Code zu Testen]
+[when play begins:	
+	repeat with i running through doors:
+		if i is a locked door:
+			now i is unlocked;]
