@@ -129,10 +129,17 @@ Maschinenraum is above Schwerkraftkompensator.
 Section - Med-Labor
 
 Med-Labor is a room.
+Krankenbett is an enterable supporter in Med-Labor. Krankenbett is fixed in place. The description of Krankenbett is "Ein Bett für jemand Krankes, es sieht nicht wirklich bequem aus."[hier muss vielleicht noch eine Bedingung eingefügt werden, sodass letzendlich nur Percy das Bett nutzen kann]
 
-Krankenbett is an enterable supporter in Med-Labor. Krankenbett is fixed in place. 
-The description of Krankenbett is "Ein Bett für jemand Krankes, es sieht nicht wirklich bequem aus."
-[hier muss vielleicht noch eine Bedingung eingefügt werden, sodass letzendlich nur Percy das Bett nutzen kann]
+
+Knopf is a device. Knopf is on Pult. Knopf is fixed in place.
+Knopf is switched off. The description of Knopf is "Ahh! Ein Knopf, um Videoblogs abzuspielen...". Knopf is undescribed.
+Pult is a supporter in Med-Labor. The description of Pult is "Auf dem Pult befindet sich ein Knopf mit der Beschriftung 'Videos'. Was der wohl macht?"
+Pult is fixed in place.
+
+After switching on Knopf:
+	[Implementation, dass Kontaminierte aufmerksam werden, fehlt]
+	say "Videoblog des Stationsarztes:[paragraph break]'Es fing alles mit einer biologischen Probe von einem nahegelegnen Planeten an. Wir wollten eigentlich nur das Leben auf diesem obskuren Planeten erfroschen. Das Sammeln der Probe verlief auch Reibungslos. Doch dann wurden anscheinend einige Raumanzüge von manchen Mitarbeitern nicht richtig dekontaminiert. Somit konnten einige von ihnen mit einem fremden Erreger kontaminiert werden. Daraufhin standen sie einfach in der Gegend herum und hatten einen starren Blick.[line break]Glücklicherweise habe ich es noch geschafft eine Dekontaminationskabine zu entwerfen und auch zu bauen. Es passt aber nur eine Person gleichzeitig hinein. Die Kontaminierten können durch das Öffnen der Tür der Kabine angelockt werden, da die Tür sehr laut ist, aber eben nur einer gleichzeitig passt in die Kabine. Wenn man die Kabine dann schließt wird der darin befindliche Kontaminierte von dem Erreger befreit und er ist wieder gesund. Ich hoffe ich schaffe es alle zu dekontaminieren, falls nicht und Sie diese Nachricht hören, BITTE HOLEN SIE HILFE!!!'"
 
 
 Section - Solar-Labor
@@ -538,3 +545,4 @@ every turn:
 	repeat with i running through doors:
 		if i is a locked door:
 			now i is unlocked;]
+			
