@@ -129,7 +129,9 @@ Maschinenraum is above Schwerkraftkompensator.
 Section - Med-Labor
 
 Med-Labor is a room.
-Krankenbett is an enterable supporter in Med-Labor. Krankenbett is fixed in place. The description of Krankenbett is "Ein Bett für jemand Krankes, es sieht nicht wirklich bequem aus."[hier muss vielleicht noch eine Bedingung eingefügt werden, sodass letzendlich nur Percy das Bett nutzen kann]
+Krankenbett is an enterable supporter in Med-Labor. Krankenbett is fixed in place. 
+The description of Krankenbett is "Ein Bett für jemand Krankes, es sieht nicht wirklich bequem aus."
+[hier muss vielleicht noch eine Bedingung eingefügt werden, sodass letzendlich nur Percy das Bett nutzen kann]
 
 
 Knopf is a device. Knopf is on Pult. Knopf is fixed in place.
