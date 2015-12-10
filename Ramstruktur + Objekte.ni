@@ -27,23 +27,30 @@ Chapter - Obere Ebene
 Section - Brücke
 
 Brücke is a room. 
+The Description of Brücke is "Ein Raum übersäht mit Schaltern und Anzeigen.
+Eine Gegensprechanlage mit einem Mikrofon für Durchsagen auf der Raumstation scheint es hier auch zu geben.".
+
 
 
 Section - Besprechungsraum
 
 Besprechungsraum is a room. 
 Besprechungsraum is above Dienstraum.
+The Description of Besprechungsraum is "Ein Raum voller Besprechungsnotizen und Stühlen.
+Der Dienstraum hier drunter hatte mehr Charm.".
+
 
 
 Section - Antennenfeld L
 
 Antennenfeld L is a room. 
 Antennenfeld L is above Kommunikationsmodul.
+The Description of AntennenfeldL is "Über diesem Raum scheinen die Antennen der Forschungsstation zu sein. Ein großer roter Knopf…der scheint wichtig zu sein.".
 
 Section - Obere Ebene Türen
 
 TürBrücke is a door. TürBrücke is east of Brücke and west of Besprechungsraum. TürBrücke is closed and locked. 
-
+The Description of TürBrücke is "Tür zwischen Brücke und Besprechungsraum: Hierzu muss der Alarm deaktiviert werden, anschließend lässt die Tür sich mit der Sicherheitskarte öffnen.".
 
 
 
@@ -56,6 +63,7 @@ Section - Hangar
 The Hangar is a room.
 The Spind is a container in Hangar. Spind is closed and openable. Spind is fixed in place.
 The description of Spind is "Im Spind lagern die Mitarbeiter ihre Sachen."
+The Description of Hangar is "Ein Raum verlassen wie jeder andere. Der Spind neben der Tür im Westen lädt einen ein, um reinzugucken. ".
 
 PanelH-GK is an open container in Hangar. the panelH-GK  is unopenable. the panelH-GK  is fixed in place. 
 
@@ -69,16 +77,27 @@ The Mobitab is in Spind. The description is "[if the mobitab is in Spind]Ein Mob
 Section - Andockstation
 
 The Andockstation is a room.
+The Description of Andockstation is "Gruselig, alles ist hierverlassen und so ruhig, als ob hier nie jemand war.
+Alles sieht hier sehr durcheinander aus. In der  Ecke ein leckendes Fass…
+Wo führt eigentlich die Wartungsluke hin? Westlich geht es zum Hangar.".
+
 
 
 Section - Gamma Kreuzung
 
 Gamma Kreuzung is a room.
+The Description of Gamma Kreuzung is "Du befindest dich im östlichen Teil des äußeren Rings.Durchs fenster sieht man die undendlichen Weiten des Alls. 
+Nordwestlich befindet sich der Gamma Delta Korridor, östlich der Hangar und südwestlich der Gamma Beta Korridor.".
+
 PanelGK-GDK is an open container in Gamma Kreuzung. the panelGK-GDK is unopenable. the panelGK-GDK is fixed in place. 
 PanelGBK-GK is an open container in Gamma Kreuzung. the panelGBK-GK is unopenable. the panelGBK-GK is fixed in place. 
 
 
 Section - Gamma-Delta Korridor
+The Description of Gamma-Delta Korridor is "Who the Fu**, was ist hier passiert??
+Ein Raum voller Spuren von Laserbeschuss. Sogar den Türhebel im Nordosten hat es erwischt.
+Ist das eine Leiche vor der Tür im Nordwesten?".
+
 
 Gamma-Delta Korridor is a room.
 PanelGDK-DK is an open container in Gamma-Delta Korridor. the panelGDK-DK is unopenable. the panelGDK-DK is fixed in place.  
@@ -87,11 +106,13 @@ PanelGDK-DK is an open container in Gamma-Delta Korridor. the panelGDK-DK is uno
 Section - Delta Kreuzung
 
 Delta Kreuzung is a room.
-
+The Description of Delta Kreuzung is "Was sind das hier für Geräusche, kommen die aus dem Raum im Süden oder doch aus dem Südwesten?".
 
 Section - Alpha-Delta Korridor
 
 Alpha-Delta Korridor is a room.
+The Description of Alpha-Delta Korridor is "Ein Raum mit einem Panel zum Öffnen der Tür, lediglich eine Tür im Nordosten und eine im Südwesten.".
+
 PanelADK-DK is an closed container in Alpha-Delta Korridor. the panelADK-DK is unopenable. the panelADK-DK is fixed in place.
 [---------- Von der Delta Kreuzung kommt man nicht nach süd westen, da kein panel dafür da ist, es geht aber von der anderen
 Seite. Das müsste vielleicht noch in einem beschreibenden Text erwähnt werden, wenn ide Tür locked ist]
@@ -99,22 +120,37 @@ Seite. Das müsste vielleicht noch in einem beschreibenden Text erwähnt werden,
 Section - Alpha Kreuzung 
 
 Alpha Kreuzung is room.
+The Description of Alpha Kreuzung is "Wie soll man sich hier entscheiden, wo man hingehen soll. In jede Richtung ein Raum, das ist echt verwirrend.
+Nach Osten ist ein Med-Labor ausgeschildert und im Westen  muss irgendwo die Brücke sein.
+Südöstlich ist  auch noch eine Tür, aber allen Anschein nach durch das Panel verschlossen ist."
+
 PanelAK-ADK is a closed container in Alpha Kreuzung. the panelAK-ADK is unopenable. the panelAK-ADK is fixed in place. 
 
 
 Section - Alpha-Beta Korridor
 
-Alpha-Beta Korridor is a room.
+Alpha-Beta Korridor is a room
+The Description of Alpha-Beta Korridor is "Ein schöner Ausblick nach draußen. In weiter Ferne sieht man ein Raumphänomen.
+Eine weitere Tür, die durch ein Panel geschlossen ist,  befindet sich südöstlich.".
+.
 PanelABK-AK is an closed container in Alpha-Beta Korridor. the panelABK-AK is unopenable. the panelABK-AK is fixed in place.
 
 
 Section - Beta Kreuzung 
 
 Beta Kreuzung is a room.
+The Description of Beta Kreuzung is "Es ist ganz schön laut hier, der Lärm schein aus dem nördlichen Raum zu kommen.
+Im Süden ist sogar ein Damen WC, welches aber außer Betrieb ist.
+Nordöstlich scheint es wieder zurück zur Andockstation zu gehen.".
+
 PanelBK-ABK is an closed container in Beta Kreuzung. the panelBK-ABK  is unopenable. the panelBK-ABK is fixed in place. 
 
 
 Section - Gamma-Beta Korridor
+The Description of Gamma-Beta Korridor is "Einherrlicher Ausblick.
+Sieht man in weiter Entfernung die Erde?	
+Vielleicht sieht man, wenn man nach Nordosten geht diese besser.".
+
 
 Gamma-Beta Korridor is a room.
 PanelGBK-BK is an open container in Gamma-Beta Korridor. the panelGBK-BK is unopenable. the panelGBK-BK is fixed in place. 
@@ -124,11 +160,17 @@ Section - Maschinenraum
 
 Maschinenraum is a room.
 Maschinenraum is above Schwerkraftkompensator.
+The Description of Maschinenraum is "Es ist sehr sehr laut und schmutzig hier. Eine Tafel zeigt viele nützliche Informationen an, ein alter Akkubohrer mit einem Akku liegt auf  dem Boden. Der Blick auf den Maschinen ist sicherlich für Ingenieure interessant.  Alles riecht nach Öl.
+Ein Glück kann man hier die Etagen Wechseln.".
+
 
 
 Section - Med-Labor
 
 Med-Labor is a room.
+The Description of Med-Labor is "Das Med-Labor ist spärlich ausgestattet.
+Ein Bett, ein Pult und eine riesige Kabine. Dafür hat man den Blick auf den Maschinekern. "
+
 Krankenbett is an enterable supporter in Med-Labor. Krankenbett is fixed in place. 
 The description of Krankenbett is "Ein Bett für jemand Krankes, es sieht nicht wirklich bequem aus."
 [hier muss vielleicht noch eine Bedingung eingefügt werden, sodass letzendlich nur Percy das Bett nutzen kann]
@@ -147,33 +189,46 @@ After switching on Knopf:
 Section - Solar-Labor
 
 Solar-Labor is a room.
+The Description of Solar-Labor is "Dies scheint auch ein Forschungsraum zu sein. Auch von hier aus sieht man den Maschinekern. Anscheinend wie jeder Raum des inneren Rings auf dieser Etage.".
 
 
 Section - Xeno-Labor
 
 Xeno-Labor is a room.
+The Description of Xeno-Labor is "Beeindruckend, wie blau der leuchtet.
+Was ist das für eine seltsame Maschine, wofür die bloß da ist?
+Schaltet der blinkende Knopf diese an?".
+
 
 
 Section - WC-Damen
 
 WC-Damen is a room.
+The Description of WC-Damen is "Die Toilette scheint intakt zu sein. Lediglich das Wasser läuft die ganze Zeit.
+Vielleicht hat der Spülkasten einen defekt.".
+
 
 
 Section - Dienstraum
 
 Dienstraum is a room.
 Dienstraum is above Mensa.
+The Description of Dienstraum is "Dieser Raum sieht nach Arbeit aus. Zum Glück kann man von hier aus nach oben, unten und in den westlichen Raum flüchten.".
 
 
 Section - Besatzungsquartier
 
 Besatzungsquartier is a room.
 Besatzungsquartier is above Fitnessraum.
+The Description of Besatzungsquatier is "Das muss der Besatzungsraum sein. Sehr unordentlich und hier riecht es nach Schweiß. Muss wohl vom unteren Raum kommen.".
 
 Section - Kommunikationsmodul
 
 Kommunikationsmodul is a room.
 Kommunikationsmodul is above Hilfsgeneratorraum.
+The Description of Kommunikationsmodul is "Dieser Raum scheint für die Kommunikation der Raumstation  zu sein. Soviele Lwl-Kabel und Stromkabel, die nach oben und unten führen.
+Was ist das eigentlich für ein penetrant leuchtender Knopf?".
+
 
 Section - Umkleideraum
 
@@ -186,77 +241,98 @@ Section - Türen
 
 [Andockstation <-> Hangar]
 TürAS-H is east of Hangar. TürAS-H is west of Andockstation.  TürAS-H is a door.
+The Description of TürAS-H is "Tür zwischen Andockstation und Hangar: Tür offen."
 
 [Hangar<-> Gamma Kreuzung]
 TürH-GK is west of Hangar. TürH-GK is east of Gamma Kreuzung. TürH-GK is a door.
 TürH-GK is locked.
+The Description of TürH-GK is "Tür zwischen Hangar und Gamma Kreuzung: Tür lässt sich nur mit einem Sicherheitsausweis oder Mobtab öffnen/schließen.".
 
 [Gamma Kreuzung <-> Gamma-Delta Korridor]
 TürGK-GDK is northwest of Gamma Kreuzung. TürGK-GDK is southeast of Gamma-Delta Korridor. TürGK-GDK is a door.
 TürGK-GDK is locked.
+The Description of TürGK-GDK is "Tür zwischen Gamma Kreuzung und Gamma Delta Korridor: Tür lässt sich nur mit einem Sicherheitsausweis öffnen/schließen.".
 
 [Gamma-Delta Korridor<-> Delta Kreuzung]
 TürGDK-DK is northwest of Gamma-Delta Korridor. TürGDK-DK is southeast of Delta Kreuzung. TürGDK-DK is a door.
 TürGDK-DK is locked.
+The Description of TürGDK-DK is "Tür zwischen Gamma-Deta Korridor und Delta Kreuzung: Tür lässt sich nur mit einem Sicherheitsausweis öffnen/schließen.".
 
 [Delta Kreuzung <-> Alpha-Delta Korridor]
 TürDK-ADK is southwest of Delta Kreuzung. TürDK-ADK is northeast of Alpha-Delta Korridor. TürDK-ADK is a door.
 TürDK-ADK is locked.
+ The Description of TürDK-ADK is "Tür zwischen Delta Kreuzung und Alpha-Delta Korridor: Tür lässt sich nur mit einem Sicherheitsausweis + Mobitab öffnen/schließen.".
  
+
+
 [Alpha-Delta Korridor <-> Alpha Kreuzung]
 TürADK-AK is southwest of Alpha-Delta Korridor. TürADK-AK is northeast of Alpha Kreuzung. TürADK-AK is a door.
 TürADK-AK is locked. 
+The Description of TürADK-AK is "Tür zwischen Alpha-Delta Korridor und Alpha Kreuzung: Tür lässt sich nur mit einem Sicherheitsausweis + Mobitab öffnen/schließen.".
 
 [Alpha Kreuzung <-> Alpha-Beta Korridor]
 TürAK-ABK is southeast of Alpha Kreuzung. TürAK-ABK is northwest of Alpha-Beta Korridor. TürAK-ABK is a door.
 TürAK-ABK is locked. 
+The Description of TürAK-ABK is "Tür zwischen Alpha Kreuzung und Alpha-Beta Korridor: Tür lässt sich nur mit einem Sicherheitsausweis + Mobitab öffnen/schließen.".
 
 [Alpha-Beta Korridor<-> Beta Kreuzung]
 TürABK-BK is southeast of Alpha-Beta Korridor. TürABK-BK is northwest of Beta Kreuzung. TürABK-BK is a door.
 TürABK-BK is locked. 
+The Description of TürABK-BK is "Tür zwischen Alpha-Beta Korridor und Beta Kreuzung: Tür lässt sich nur mit einem Sicherheitsausweis + Mobitab öffnen/schließen.".
 
 [Beta Kreuzung<-> Gamma-Beta Korridor]
 TürBK-GBK is northeast of Beta Kreuzung. TürBK-GBK is southwest of Gamma-Beta Korridor. TürBK-GBK is a door.
 TürBK-GBK is locked. 
+The Description of TürBK-GBK is "Tür zwischen Beta Kreuzung und Gamma-Beta Korridor: Tür lässt sich nur mit einem Sicherheitsausweis öffnen/schließen.".
 
 [Gamma-Beta Korridor <-> Gamma Kreuzung]
 TürGBK-GK is northeast of Gamma-Beta Korridor. TürGBK-GK is southwest of Gamma Kreuzung. TürGBK-GK is a door.
 TürGBK-GK is locked. 
+The Description of TürGBK-GK is "Tür zwischen Gamma-Beta Korridor und Gamma Kreuzung: Tür lässt sich nur mit einem Sicherheitsausweis öffnen/schließen.".
 
 [Gamma Kreuzung <-> Xeno-Labor]
 TürGK-XL is west of Gamma Kreuzung. TürGK-XL is east of Xeno-Labor. TürGK-XL is a door.
 TürGK-XL is locked.
+The Description of TürGK-XL is "Tür zwischen Gamma Kreuzung und Xeno-Labor: Du benötigst die Xenokarte um diese Tür zu öffnen. Tür bleibt nur 5 Sekunden geöffnet und schließt dann wieder. Tür kann mit einem Fass blockiert werden, sodass die Tür für immer offen bleibt.".
 
 [Beta Kreuzung <-> Maschinenraum]
 TürBK-MR is north of Beta Kreuzung. TürBK-MR is south of Maschinenraum. TürBK-MR is a door.
+The Description of TürBK-MR is "Tür zwischen Beta Kreuzung und Maschinenraum: Tür offen.".
 
 [Delta Kreuzung <-> Solar-Labor]
 TürDK-SL is south of Delta Kreuzung. TürDK-SL is north of Solar-Labor. TürDK-SL is a door.
+The Description of TürDK-SL is "Tür zwischen Delta Kreuzung und Solar-Labor: Tür offen.".
 
 [Alpha Kreuzung <-> Med-Labor]
 TürAK-ML is east of Alpha Kreuzung. TürAK-ML is west of Med-Labor. TürAK-ML is a door.
+The Description of TürAK-ML is "Tür zwischen Alpha Kreuzung und Med-Labor: Tür offen.".
 
 [Beta Kreuzung <-> WC-Damen]
 TürBK-WCD is south of Beta Kreuzung. TürBK-WCD is north of WC-Damen. TürBK-WCD is a door.
 TürBK-WCD is locked.
+The Description of TürBK-WCD is "Tür zwischen Beta Kreuzung und WC-Damen: Tür lässt sich erst in Szene 4 nach Abschluss der Dekontaminierung öffnen.".
 
 [Alpha Kreuzung <-> Dienstraum]
 TürAK-DR is west of Alpha Kreuzung. TürAK-DR is east of Dienstraum. TürAK-DR is a door.
+The Description of TürAK-DR is "Tür zwischen Alpha Kreuzung und Dienstraum: Tür offen.".
 
 [Dienstraum <-> Besatzungquatier]
 TürDR-BQ is east of Besatzungsquartier. TürDR-BQ is west of Dienstraum. TürDR-BQ is a door.
+The Description of TürDR-BQ is "Tür zwischen Dienstraum und Besatzungsquatiert: Tür offen.".
 
 [Gamma-Delta Korridor <-> Kommunikationsmodul]
 TürGDK-KM is northeast of Gamma-Delta Korridor. TürGDK-KM is southwest of Kommunikationsmodul. TürGDK-KM is a door.
 TürGDK-KM is locked.
+The Description of TürGDK-KM is "Tür zwischen Gamma-Delta-Korridor und Kommunikationsmodul: Hebel auf dieser Seite defekt, Tür kann nur im Kommunikationsmodul geöffnet werden.".
 
 [Hangar <-> Umkleideraum]
 TürH-UR is south of Hangar. TürH-UR is north of Umkleideraum. TürH-UR is a door.
 TürH-UR is locked.
 
+
 [Andockstation <-> Kommunikationsmodul]
 TürAS-KM is northwest of Andockstation. TürAS-KM is southeast of Kommunikationsmodul. TürAS-KM is a door.
-
+The Description of TürAS-KM is "Tür zwischen Andockstation und Kommunkationsmodul: Bitte Raumanzug anziehen, da du im Weltall sonst nicht überlebst.".
 
 Before going through the TürAS-KM:
 	if the player is not wearing the Raumanzug:
@@ -270,11 +346,17 @@ Chapter - Untere Ebene
 Section  - Lagerraum
 
 Lagerraum is a room.
+The Description of Lagerraum is "Ein Raum vollgepackt mit Geräten und Nahrung. Anscheinend hat hier schon lange niemand aufgeräumt.
+Eine Tür zum verlassen des Raumes befindet sich im Nordosten und Südosten.".
 
 
 Section  - Delta-Gewächshaus
 
 Delta-Gewächshaus is a room.
+The Description of Delta-Gewächshaus is "Du befindest dich jetzt im Norden des äußeren Rings der unteren Ebene.
+Ein Raum voller Pflanzen, das sieht man selten im Weltall.
+Ob es im Raum Südöstlich von hier genauso aussieht?".
+
 
 [Die Lagebeziehung von den Räumen im inneren und äußeren Ring der unteren Ebene, wird durch den folgenden Befehl
 der vorgegebenen Karte angepasst]
@@ -284,17 +366,26 @@ Index map with Delta-Gewächshaus mapped north of Hauptgenerator.
 Section  - Lager
 
 Lager is a room.
+The Description of Lager is "Du befindest dich jetzt im Osten des äußeren Rings der unteren Ebene.
+Ein Raum ähnlich wie der Lagerraum, nur aufgeräumter und größer.
+Südwestlich scheint es wieder zum Lagerraum zu gehen.".
 
 
 Section  - Beta-Gewächshaus
 
 Beta-Gewächshaus is a room.
+The Description of Beta-Gewächshaus is "Du befindest dich jetzt im Süden des äußeren Rings der unteren Ebene.
+Ein Raum wie das Delta Gewächshaus, nur es scheint hier Obst angebaut zu werden.".
 
 
 [Untere Ebene - Innerer Ring]
 Section  - Schwerkraftkompensator 
 
 Schwerkraftkompensator is a room.
+The Description of Schwerkraftkompensator is "Dieser Raum scheint die Schwerkraft auf der Forschungsstation zu regeln und die Verbindung zur Forschungsstation zu sein.
+Der Transporter sollte dorthin führen.
+Von hier aus gehen Türen in den Nordosten und Nordwesten.".
+
 
 [Die Lagebeziehung von den Räumen im inneren und äußeren Ring der unteren Ebene, wird durch den folgenden Befehl
 der vorgegebenen Karte angepasst]
@@ -304,32 +395,50 @@ Index map with Schwerkraftkompensator mapped north of Beta-Gewächshaus.
 Section  - Delta-KI
 
 Delta-KI is a room.
+The Description of Delta-KI is "Das scheint der Kopf des Deltabereichs zur Steuerung zu sein.
+Künstliche Intelligenz vereinfacht einiges.
+Türen sind im Nordwesten und Südwesten".
 
 
 Section  - Hauptgenerator
 
 Hauptgenerator is a room.
+The Description of Hauptgenerator is "Der Hauptgenerator, das ist die Energiequelle der Forschungsstation.
+Türen sind im Südwesten und Südosten.".
+
 
 
 Section  - Alpha-KI
 
 Alpha-KI is a room. 
+The Description of Alpha-KI is "Das scheint der Kopf des Alphabereichs zur Steuerung zu sein.
+Künstliche Intelligenz vereinfacht einiges.
+Türen sind im Nordosten und Südosten.".
 
 
 [Untere Ebene - Andere] 
 Section  - Mensa
 
 Mensa is a room.
+The Description of Mensa is "Hier wurde mal gekocht und gespeist.
+Aber das ist schon länger her.
+Anstatt des Besatzungspersonal treiben sich hier nur noch Ungeziefer rum.
+Du kannst hoch zum Dienstraum oder zum äußeren Ring der unteren Ebene.".
 
 
 Section  - Fitnessraum
 
 Fitnessraum is a room.
+The Description of Fitnessraum is "Ein Raum voller Kardiogeräte und Hanteln.
+Hier wurde schon länger nicht mehr trainiert, aber es riecht immernoch nach Schweiß.
+Besser geht man wieder nach oben zum Besatzungsquartier.".
 
 
 Section  - Hilfsgeneratorraum
 
 Hilfsgeneratorraum is a room.
+The Description of Hilfsgeneratorraum is "Hier befindet sich der Hilfsgenerator, falls der Hauptgenerator ausfallen sollte.
+Über dir ist das Kommunikationsmodul.".
 
 
 [Türen]
@@ -346,6 +455,16 @@ TürDK-HG is northwest of Delta-KI and southeast of Hauptgenerator.TürDK-HG is 
 TürHG-AK is southwest of Hauptgenerator and northeast of Alpha-KI. TürHG-AK is a door.TürHG-AK is locked.
 TürAK-SKK is southeast of Alpha-KI and northwest of Schwerkraftkompensator. TürAK-SKK is a door. TürAK-SKK is locked.
 
+The Description of TürM-LR is "Tür zwischen Lagerraum und Mensa: Tür nicht verschlossen.".
+The Description of TürLR-BGH is "Tür zwischen Lagerraum und Beta-Gewächshaus: Tür nicht verschlossen.".
+The Description of TürBGH-LB is "Tür zwischen Beta-Gewächshaus und Lager: Tür nicht verschlossen.".
+The Description of TürLB-DGH is "Tür zwischen Lager und Delta-Gewächshaus: Tür nicht verschlossen.".
+The Description of TürDGH-LR is "Tür zwischen Delta-Gewächshaus und Lagerraum: Tür nicht verschlossen.".
+The Description of TürSKK-DK is "Tür zwischen Schwerkraftkompensator und Delta-KI: Tür nicht verschlossen.".
+The Description of TürDK-HG is "Tür zwischen Delta-KI und Hauptgenerator: Tür nicht verschlossen.".
+The Description of TürHG-AK is "Tür zwischen Hauptgenerator und Alpha-KI: Tür nicht verschlossen.".
+The Description of TürAK-SKK is "Tür zwischen Alpha-KI und Schwerkraftkompensator: Tür nicht verschlossen.".
+
 [Forschungsstation]
 
 [Obere Ebene - FS]
@@ -358,22 +477,33 @@ Section - Antennenfeld F
 
 Antennenfeld F is a room.
 Antennenfeld F is above Labor F.
+The Description of Antennen-Feld F is "Dieser Raum sieht genauso aus, wie der Raum auf der Raumstation, jede Menge Kabel und Geräte zur Funkübertragung.
+Eine Leiter geht nach unten, südlich und östlich befinden sich Türen.".
+
 
 Section - Funkmodul
 
 Funkmodul is a room.
 Funkmodul is above Kommunikationsmodul F.
+The Description of Funkmodul is "Soviele Geräte und Kabel. Man könnte vermuten, dass alle Funksignale durch den Raum fließen.
+Eine Leiter geht nach unten, und nördlich von dir ist eine Tür.".
 
 
 Section - Solar-Modul F
 
 Solar-Modul F is a room.
+The Description of Solar-Modul F is "Anscheinend wird die Forschungsstation mit Solarenergie versorgt. In dem dazugehörigen Raum befindest du dich gerade.
+Du müsstest dich über den Fluchtkapseln befinden.
+Westlich von dir ist das Antennenfeld F imd Süden befindet sich eine Tür.".
 
 
 Section - Pulsator-Modul
 
 Pulsator-Modul is a room.
 Pulsator-Modul is above Kontrollmodul.
+The Description of Pulsator-Modul is "Was dieser Raum für eine Funktion hat, kann man kaum erraten.
+Du musst dich südlich vom Solarmodul F befinden und was unter dir ist, musst du selber herausfinden.".
+
 
 [Haupt Ebene - FS]
 Chapter - Hauptebene
@@ -381,22 +511,31 @@ Chapter - Hauptebene
 Section - Labor F
 
 Labor F is a room.
+The Description of Labor F is "Hier wurde das Raumphänomen erforscht.
+Über dir ist das Antennenfeld F und im Süden ist eine Tür.".
 
 
 Section - Kommunikationsmodul F
 
 Kommunikationsmodul F is a room.
 Kommunikationsmodul F is above Transporterraum.
+The Description of Kommunikationsmodul F is "Möchtest du einen Funkspruch absetzen oder Empfangen? Dann bist du hier genau richtig.
+Es geht eine Leiter nach oben und unten.
+Nach Norden geht’s es zum Labor F.".
 
 
 Section - Fluchtkapseln
 
 Fluchtkapseln is a room.
+The Description of Fluchtkapseln is "Falls irgendein Notfall Eintritt, kannst du von hier aus mit einen Fluchtkapsel flüchten.
+Südlich von dir kannst du den Raum wieder verlassen".
 
 
 Section - Kontrollmodul
 
 Kontrollmodul is a room.
+The Description of Kontrollmodul is "Du befindest dich auf der Kontrollstation der Forschungseinrichtung.
+Nördlich von dir sind die Fluchtkapseln, eine Treppe geht nach oben.".
 
 
 [Untere Ebene - FS]
@@ -411,11 +550,16 @@ Beschädigtes Modul is a room.]
 Section - Transporterraum
 
 Transporterraum is a room.
+The Description of Transporterraum is "Dies ist die Verbindung zur Raumstation.
+Benutze den Transporter um dorthin zu gelangen.
+Östlich geht’s zum Energiespeicher und über dir zum Kommunikationsmodul F.".
 
 
 Section - Energiespeicher
 
 Energiespeicher is a room.
+The Description of Energiespeicher is "Dies ist die Energiequelle der Forschungsstation.
+Östlich ist eine Tür.".
 
 
 [Türen]
@@ -431,6 +575,14 @@ TürL-BM is east of Transporterraum and west of Energiespeicher. TürL-BM is a d
 
 TürKM-FK is north of Kontrollmodul and south of Fluchtkapseln. TürKM-FK is a door.TürKM-FK is open.
 TürL-KOMF is south of Labor F and north of Kommunikationsmodul F. TürL-KOMF is a door. TürL-KOMF is open.
+
+The Description of TürAF-FM is "Tür zwischen Antennen-Feld F und Funkmodul: Tür offen.".
+The Description of TürAF-SM is "Tür zwischen Antennen-Feld F und Solar-Modul: Tür offen.".
+The Description of TürSM-PM is "Tür zwischen Solar-Modul F und Pulsator-Modul: Tür offen.".
+The Description of TürL-BM is "Tür zwischen Transporterraum und Energiespeicher: Tür offen.".
+The Description of TürKM-FK is "Tür zwischen Kontrollmodul und Fluchtkapseln: Tür offen.".
+The Description of TürL-KOMF is "Tür zwischen Labor F und Kommunikationsmodul F: Tür offen.".
+
 
 
 Part - Generele Regeln
