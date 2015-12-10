@@ -86,6 +86,7 @@ Wo führt eigentlich die Wartungsluke hin? Westlich geht es zum Hangar.".
 Section - Gamma Kreuzung
 
 Gamma Kreuzung is a room.
+
 The Description of Gamma Kreuzung is "Du befindest dich im östlichen Teil des äußeren Rings.Durchs fenster sieht man die undendlichen Weiten des Alls. 
 Nordwestlich befindet sich der Gamma Delta Korridor, östlich der Hangar und südwestlich der Gamma Beta Korridor.".
 
@@ -94,6 +95,7 @@ PanelGBK-GK is an open container in Gamma Kreuzung. the panelGBK-GK is unopenabl
 
 
 Section - Gamma-Delta Korridor
+
 The Description of Gamma-Delta Korridor is "Who the Fu**, was ist hier passiert??
 Ein Raum voller Spuren von Laserbeschuss. Sogar den Türhebel im Nordosten hat es erwischt.
 Ist das eine Leiche vor der Tür im Nordwesten?".
@@ -110,6 +112,7 @@ The Description of Delta Kreuzung is "Was sind das hier für Geräusche, kommen 
 
 Section - Alpha-Delta Korridor
 
+
 Alpha-Delta Korridor is a room.
 The Description of Alpha-Delta Korridor is "Ein Raum mit einem Panel zum Öffnen der Tür, lediglich eine Tür im Nordosten und eine im Südwesten.".
 
@@ -118,6 +121,7 @@ PanelADK-DK is an closed container in Alpha-Delta Korridor. the panelADK-DK is u
 Seite. Das müsste vielleicht noch in einem beschreibenden Text erwähnt werden, wenn ide Tür locked ist]
 
 Section - Alpha Kreuzung 
+
 
 Alpha Kreuzung is room.
 The Description of Alpha Kreuzung is "Wie soll man sich hier entscheiden, wo man hingehen soll. In jede Richtung ein Raum, das ist echt verwirrend.
@@ -129,7 +133,7 @@ PanelAK-ADK is a closed container in Alpha Kreuzung. the panelAK-ADK is unopenab
 
 Section - Alpha-Beta Korridor
 
-Alpha-Beta Korridor is a room
+Alpha-Beta Korridor is a room.
 The Description of Alpha-Beta Korridor is "Ein schöner Ausblick nach draußen. In weiter Ferne sieht man ein Raumphänomen.
 Eine weitere Tür, die durch ein Panel geschlossen ist,  befindet sich südöstlich.".
 .
@@ -147,6 +151,7 @@ PanelBK-ABK is an closed container in Beta Kreuzung. the panelBK-ABK  is unopena
 
 
 Section - Gamma-Beta Korridor
+
 The Description of Gamma-Beta Korridor is "Einherrlicher Ausblick.
 Sieht man in weiter Entfernung die Erde?	
 Vielleicht sieht man, wenn man nach Nordosten geht diese besser.".
