@@ -709,3 +709,13 @@ when play begins:
 		if i is a locked door:
 			now i is unlocked;]
 	now the player is Percy;		
+
+
+
+Part - Szenen
+
+Szene 1 is a scene. "Die Lupus-Station ist eine der entlegensten Raumstationen des Terrestrischen Imperiums. Sie dient ausschließlich der Forschung. Zum einen liegt sie in der Nähe eines Planeten, der fremde Lebensformen mit geringer Intelligenz hervorgebracht hat. Zum anderen befindet sich in einiger Entfernung ein besonders seltenes Raumphänomen, das erforscht werden soll. Zu diesem Zweck wurde dort eine kleine Forschungsstation errichtet. Der Transport per Raumfähre ist auf Grund von Ionenstürmen recht gefährlich, so dass ein Punkt‐zu‐Punkt‐Subraum‐Transport‐Link zur Raumstation eingerichtet worden ist.[line break]Die Protagonisten der Geschichte sind der Pilot und Spezialist für Vakuumeinsätze Barry McIntyre sowie der Ingenieur Percy Braden. Beide sind frisch von der Akademie und auf ihrem ersten Einsatz auf einer Raumstation (wenn man die Ausbildungsstation im Erdorbit einmal nicht mitzählt). Sie sollen zwei Mitarbeiter der Lupus‐Station ablösen und sind mit der Fähre auf dem Weg zur Station.[line break]Barry fliegt die Fähre, Percy übernimmt die Kommunikation. Als sie sich der Station nähern wundern sie sich, dass zwar der automatische Leitstrahl funktioniert, sie jedoch keine Antwort auf ihre Landeanfrage erhalten. Da der Leitstrahl sie führt und das automatische Andocken einleitet, denken sie sich nichts weiter und halten das für ein eventuelles Willkommensritual des Außenpostens. Als sie aus der Fähre aussteigen, finden sie den Andock‐ und Hangarbereich verlassen vor. Sie sind verwundert und einigen sich darauf, dass Barry den Landecheck vornimmt und Percy nach dem Deckpersonal recherchiert und sich schon einmal auf der Brücke beim wachhabenden Offizier meldet (Der Spieler spielt als Percy)."
+Szene 1 begins when play begins.
+
+Szene 2 is a scene.
+Szene 2 begins when the player is Barry.
