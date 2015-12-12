@@ -6,6 +6,8 @@ Barry is a person in Hangar. The description of Barry is "[if the player is Barr
 
 Percy is a person in Hangar. The description of Percy is "[if the player is Percy]Ich bin Percy der Ingenieur und streife durch die Lupus-Station. [otherwise]Percy ist der Ingenieur."
 
+The player is Percy.
+
 [////////Regionen//////////////////////]
 The Raumstation is a region. The  Andockstation, Hangar, Umkleideraum, Gamma-Delta Korridor, Kommunikationsmodul, Alpha-Delta Korridor, Delta Kreuzung, Alpha Kreuzung, Dienstraum, Besatzungsquartier, Alpha-Beta Korridor, Beta Kreuzung, WC-Damen, Gamma-Beta Korridor, Gamma Kreuzung, Xeno-Labor,  Solar-Labor, Med-Labor, Maschinenraum, Besprechungsraum, Brücke, Antennenfeld L, Lagerraum, Mensa, Fitnessraum, Delta-Gewächshaus, Lager, Beta-Gewächshaus, Schwerkraftkompensator, Delta-KI, Hauptgenerator, Umkleideraum, Alpha-KI, Hilfsgeneratorraum are in the Raumstation. 
 
@@ -708,7 +710,6 @@ when play begins:
 	[repeat with i running through doors:
 		if i is a locked door:
 			now i is unlocked;]
-	now the player is Percy;		
 
 
 
