@@ -2,6 +2,10 @@
 
 The player is in Hangar.
 
+Barry is a person in Hangar. The description of Barry is "[if the player is Barry]Ich bin Barry der Igenieur und streife durch die Lupus-Station. [otherwise]Barry ist der Ingenieur."
+
+Percy is a person in Hangar. The description of Percy is "[if the player is Percy]Ich bin Percy der Pilot und streife durch die Lupus-Station. [otherwise]Percy ist der Pilot."
+
 [////////Regionen//////////////////////]
 The Raumstation is a region. The  Andockstation, Hangar, Umkleideraum, Gamma-Delta Korridor, Kommunikationsmodul, Alpha-Delta Korridor, Delta Kreuzung, Alpha Kreuzung, Dienstraum, Besatzungsquartier, Alpha-Beta Korridor, Beta Kreuzung, WC-Damen, Gamma-Beta Korridor, Gamma Kreuzung, Xeno-Labor,  Solar-Labor, Med-Labor, Maschinenraum, Besprechungsraum, Brücke, Antennenfeld L, Lagerraum, Mensa, Fitnessraum, Delta-Gewächshaus, Lager, Beta-Gewächshaus, Schwerkraftkompensator, Delta-KI, Hauptgenerator, Umkleideraum, Alpha-KI, Hilfsgeneratorraum are in the Raumstation. 
 
